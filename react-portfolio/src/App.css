@@ -1,0 +1,128 @@
+.App {
+  text-align: center;
+  background-color: #f7f7f7;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.page#aboutme {
+  background-color: #f7f7f7; /* Light gray background color */
+  padding: 40px 0; /* Add some padding to the top and bottom */
+}
+
+/* Style the About Me section title */
+.page#aboutme h2 {
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+/* Style the container for profile photo and text */
+.aboutme-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style the profile photo container */
+.profile-photo-container {
+  width: 200px; /* Set a fixed width for the circular container */
+  height: 200px; /* Set a fixed height for the circular container */
+  border-radius: 50%; /* Make it circular */
+  overflow: hidden; /* Hide overflow if the image is larger */
+  margin-right: 20px; /* Add margin to separate it from text */
+}
+
+/* Style the profile photo */
+.profile-photo {
+  width: 100%; /* Make the image fill the container */
+  height: 100%; /* Make the image fill the container */
+  object-fit: cover; /* Preserve aspect ratio and cover container */
+}
+
+/* Style the text content */
+.aboutme-container > .aboutme-text {
+  font-size: 1rem;
+  text-align: left;
+  line-height: 1.6;
+}
+
+/* Style the introductory paragraph */
+.aboutme-text .intro {
+  font-size: 1.2rem; /* Increase font size for the introductory paragraph */
+  font-weight: bold; /* Make it bold */
+  margin-bottom: 10px; /* Add some margin at the bottom of the introductory paragraph */
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .aboutme-container {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
+  }
+
+  .profile-photo-container {
+    margin-right: 0; /* Remove margin on smaller screens */
+    margin-bottom: 20px; /* Add margin at the bottom on smaller screens */
+  }
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 0;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar {
+  background-color: #333;
+  text-align: center;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+
+.nav-link {
+  font-size: 1rem;
+  color: #fff;
+  margin-right: 20px;
+}
+
+.nav-link:hover {
+  color: #ff5733;
+}
+
+.navbar-nav {
+  padding-right: 20px;
+}
