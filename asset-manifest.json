@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.97e9466b.css",
+    "main.js": "/React-Portfolio/static/js/main.f3e80a16.js",
+    "static/media/scheduler.png": "/React-Portfolio/static/media/scheduler.c0a992681659f6630f93.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/React-Portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/React-Portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/React-Portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/weather.jpg": "/React-Portfolio/static/media/weather.737d628f8467e18c2764.jpg",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/React-Portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/shawn.jpg": "/React-Portfolio/static/media/shawn.1940223db49090723e4d.jpg",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/React-Portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/React-Portfolio/index.html",
+    "main.97e9466b.css.map": "/React-Portfolio/static/css/main.97e9466b.css.map",
+    "main.f3e80a16.js.map": "/React-Portfolio/static/js/main.f3e80a16.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97e9466b.css",
+    "static/js/main.f3e80a16.js"
+  ]
+}
